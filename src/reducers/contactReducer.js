@@ -7,6 +7,10 @@ const conatctReducer = (state=initialState,action)=>{
             return [...state,action.payload]
         }
 
+        case 'CLEAR_ALL' : {
+            return initialState
+        }
+
         default : {
             return state
         
