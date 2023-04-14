@@ -3,7 +3,8 @@ import conatctReducer from "../reducers/contactReducer";
 
 const configureStore =()=>{
     const store = createStore(combineReducers({
-        contacts : conatctReducer
+        contacts : conatctReducer,
+        
 
     }))
 
