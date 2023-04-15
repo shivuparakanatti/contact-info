@@ -11,7 +11,7 @@ const Contact= ()=>{
 
     }
     return (
-        <div>
+        <div className="container">
             
             <ContactList allcontacts={allcontacts}/>
             <ContactForm contacts={contacts} />

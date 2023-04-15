@@ -37,7 +37,7 @@ const ContactList =(props)=>{
             {
                 contact.map(ele=>{
                     return (
-                    <li>{ele.name} - {ele.number}  <button onClick={()=>{handleCancel(ele)}}>Cancel</button></li>
+                    <li key={ele.id}>{ele.name} - {ele.number}  <button onClick={()=>{handleCancel(ele)}}>Cancel</button></li>
                     )
                 })
             }
