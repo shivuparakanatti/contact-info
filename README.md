@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with contact-info App. This application is based on React and redux including setting up of store, Actions, Reducers
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
