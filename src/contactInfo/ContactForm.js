@@ -45,6 +45,7 @@ const ContactForm = (props)=>{
   
     return (
         <form onSubmit={handleForm} className="contactForm">
+            <h2>Contact Form</h2>
             <input type="text" placeholder="Name" onChange={handleNmae}/>
             <input type="number" placeholder="Number" onChange={handleNumber}/>
             <input type="submit" onClick={handleSubmit}/>

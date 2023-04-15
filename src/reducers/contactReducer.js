@@ -3,7 +3,7 @@ const initialState = []
 
 const conatctReducer = (state=initialState,action)=>{
     switch(action.type) {
-        
+
         case "CONTACTS":{
             return [...state,action.payload]
         }
@@ -13,6 +13,10 @@ const conatctReducer = (state=initialState,action)=>{
         }
 
         case 'CANCEL' : {
+            return action.payload
+        }
+
+        case 'SEARCH_OUTPUT' :{
             return action.payload
         }
 

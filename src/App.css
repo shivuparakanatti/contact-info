@@ -8,6 +8,40 @@
   align-items: center;
   justify-content: center;
 }
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 110px;
+  left: 750px;
+  padding: 10px;
+  margin: 5px;
+  row-gap: 10px;
+  border-radius: 15px;
+  background-color: #3E5151;
+  color: aliceblue;
 
+  box-shadow:
+  3.1px 2.7px 2.2px rgba(0, 0, 0, 0.095),
+  7.5px 6.5px 5.3px rgba(0, 0, 0, 0.143),
+  14.1px 12.1px 10px rgba(0, 0, 0, 0.166),
+  25.2px 21.7px 17.9px rgba(0, 0, 0, 0.197),
+  47.2px 40.5px 33.4px rgba(0, 0, 0, 0.259),
+  113px 97px 80px rgba(0, 0, 0, 0.36)
+}
 
+.contactList{
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+body{
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  color: #040f0f;
+}
+
+button{
+  background-color: #e4eded;
+}
 
