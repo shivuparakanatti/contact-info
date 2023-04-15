@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector,useDispatch } from "react-redux";
 import { clearAll } from "../actions/contactAction";
+import { cancel } from "../actions/contactAction";
 
 const ContactList =(props)=>{
     const dispatch = useDispatch()
@@ -15,9 +16,16 @@ const ContactList =(props)=>{
 
     }
 
-    const handleCancel=()=>{
-        
+    const handleCancel=(ele)=>{
+        const updatedList = contact.filter(c=>{
+            return c!=ele
+        })
+        dispatch(cancel(updatedList))
+
+        console.log(updatedList)
     }
+
+    
 
 
     return (
@@ -29,7 +37,7 @@ const ContactList =(props)=>{
             {
                 contact.map(ele=>{
                     return (
-                    <li>{ele.name} - {ele.number}  <button onClick={handleCancel}>Cancel</button></li>
+                    <li>{ele.name} - {ele.number}  <button onClick={()=>{handleCancel(ele)}}>Cancel</button></li>
                     )
                 })
             }

@@ -11,7 +11,9 @@ const conatctReducer = (state=initialState,action)=>{
             return initialState
         }
 
-        
+        case 'CANCEL' : {
+            return action.payload
+        }
 
         default : {
             return state

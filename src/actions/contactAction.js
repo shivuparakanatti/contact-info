@@ -13,7 +13,7 @@ export const clearAll = ()=>{
 
 export const cancel=(n)=>{
     return {
-        type:'cancell',
+        type:'CANCEL',
         payload:n
     }
 }
