@@ -10,3 +10,10 @@ export const clearAll = ()=>{
         type : 'CLEAR_ALL'
     }
 }
+
+export const cancel=(n)=>{
+    return {
+        type:'cancell',
+        payload:n
+    }
+}
