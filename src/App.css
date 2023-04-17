@@ -36,6 +36,7 @@
   row-gap: 10px;
   column-gap: 10px;
 }
+
 body{
   background-image: linear-gradient(to right, #DECBA4, #3E5151);
   color: #040f0f;
