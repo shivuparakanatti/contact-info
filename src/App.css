@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .contactForm{
   display: flex;
   flex-direction: column;
