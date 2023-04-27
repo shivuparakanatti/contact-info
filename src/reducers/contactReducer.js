@@ -1,4 +1,3 @@
-
 const initialState = []
 
 const conatctReducer = (state=initialState,action)=>{
