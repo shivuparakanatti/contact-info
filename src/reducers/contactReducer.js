@@ -26,7 +26,6 @@ const conatctReducer = (state=initialState,action)=>{
         }
     }
    
-    
 }
 
 export default conatctReducer
