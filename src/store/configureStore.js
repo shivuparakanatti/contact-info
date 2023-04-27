@@ -5,7 +5,6 @@ const configureStore =()=>{
     const store = createStore(combineReducers({
         contacts : conatctReducer,
         
-
     }))
 
     return store
