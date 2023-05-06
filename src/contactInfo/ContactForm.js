@@ -23,6 +23,7 @@ const ContactForm = (props)=>{
         setName(name)
         
     }
+    
 
     const handleNumber=(e)=>{
         const number = e.target.value
