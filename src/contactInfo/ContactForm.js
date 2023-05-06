@@ -24,7 +24,6 @@ const ContactForm = (props)=>{
         
     }
     
-
     const handleNumber=(e)=>{
         const number = e.target.value
         setNumber(number)
