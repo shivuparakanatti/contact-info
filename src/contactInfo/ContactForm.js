@@ -15,7 +15,7 @@ const ContactForm = (props)=>{
     const handleForm = (e)=>{
         e.preventDefault()
         e.target.reset();
-        
+
     }
 
     const handleNmae=(e)=>{
