@@ -10,7 +10,6 @@ const conatctReducer = (state=initialState,action)=>{
         case 'CLEAR_ALL' : {
             return initialState
         }
-      
 
         case 'CANCEL' : {
             return action.payload
