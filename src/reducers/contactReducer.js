@@ -21,7 +21,6 @@ const conatctReducer = (state=initialState,action)=>{
 
         default : {
             return state
-        
         }
     }
    
