@@ -19,7 +19,7 @@ const ContactForm = (props)=>{
     const handleNmae=(e)=>{
         const name = e.target.value
         setName(name)
-        
+
     }
     
     const handleNumber=(e)=>{
