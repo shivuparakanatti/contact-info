@@ -8,7 +8,6 @@ import { v4 as uuidv4 } from "uuid";
 const ContactForm = (props)=>{
 
     const dispatch = useDispatch()
-
     const [name, setName] = useState('')
     const [number, setNumber] = useState('')
 
