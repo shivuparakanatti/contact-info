@@ -35,7 +35,7 @@ const ContactForm = (props)=>{
             number : number
         }
         dispatch(contact(contactDetails))
-       // 
+       
         
 
 
