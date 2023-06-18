@@ -11,7 +11,6 @@ const ContactForm = (props)=>{
     const [name, setName] = useState('')
     const [number, setNumber] = useState('')
 
-
     const handleForm = (e)=>{
         e.preventDefault()
         e.target.reset();
