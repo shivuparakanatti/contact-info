@@ -9,7 +9,6 @@ const ContactList =(props)=>{
 
     const [outputSearch, setOutputSearch] = useState()
 
-
     const contact = useSelector(state=>{
         return state.contacts
       })
