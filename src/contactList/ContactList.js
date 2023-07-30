@@ -13,7 +13,6 @@ const ContactList =(props)=>{
         return state.contacts
       })
 
-
     const handleClearAll =()=>{
         dispatch(clearAll())
 
