@@ -15,7 +15,6 @@ const ContactList =(props)=>{
 
     const handleClearAll =()=>{
         dispatch(clearAll())
-
     }
 
     const handleCancel=(ele)=>{
