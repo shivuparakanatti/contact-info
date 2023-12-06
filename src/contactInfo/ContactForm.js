@@ -15,7 +15,6 @@ const ContactForm = (props)=>{
         e.target.reset();
     }
 
-
     const handleNmae=(e)=>{
         const name = e.target.value
         setName(name)
