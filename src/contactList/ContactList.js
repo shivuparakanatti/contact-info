@@ -10,7 +10,6 @@ const ContactList =(props)=>{
     const contact = useSelector(state=>{
         return state.contacts
       })
-
     const handleClearAll =()=>{
         dispatch(clearAll())
     }
