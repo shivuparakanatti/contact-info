@@ -7,6 +7,7 @@ const ContactList =(props)=>{
     const dispatch = useDispatch()
     const [outputSearch, setOutputSearch] = useState()
 
+
     const contact = useSelector(state=>{
         return state.contacts
       })
